@@ -1,8 +1,5 @@
 # Ignore personal Kaggle info
 kaggle.json
 
-# Ignore Dataset
-Covid19-dataset
-
 # Ignore venv
 /venv/
