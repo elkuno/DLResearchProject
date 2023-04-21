@@ -1,2 +1,5 @@
 # Ignore personal Kaggle info
 kaggle.json
+
+# Ignore venv
+/venv/
