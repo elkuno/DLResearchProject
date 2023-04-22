@@ -14,6 +14,7 @@ certifi==2022.12.7
 cffi==1.15.1
 charset-normalizer==3.1.0
 colorama==0.4.6
+colour==0.1.5
 comm==0.1.3
 contourpy==1.0.7
 cycler==0.11.0
@@ -114,6 +115,7 @@ tensorflow-estimator==2.10.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.2.0
 terminado==0.17.1
+tf-explain==0.3.1
 threadpoolctl==3.1.0
 tinycss2==1.2.1
 tornado==6.3
