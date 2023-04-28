@@ -18,7 +18,11 @@ Our repo is organized in a way that we can hopefully eventually apply the code t
 # How to execute each jupyter notebook:
 
 ## CAM:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet purus sem. Vivamus eu luctus elit. Morbi aliquet diam ligula, vitae consectetur sapien aliquet at. Quisque ac justo nisi. Ut sed arcu sed odio cursus luctus a at elit. Aliquam feugiat, erat in accumsan hendrerit, nibh turpis lobortis eros, ac accumsan nibh ligula sit amet leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tristique dui in neque mollis gravida. Quisque ut nibh ante.
+`visualization_techniques/cam/cov19_cam.ipynb`
+
+Adapted and modified code from https://towardsdatascience.com/practical-guide-for-visualizing-cnns-using-saliency-maps-4d1c2e13aeca
+
+Basic notebook that uses class activation maps to view all layers from the first 5 test image predictions. Outputed to the `Output_Images/cam` directory.
 
 ## Grad-Cam:
 `visualization_techniques/gradcam/98-48-accuracy-using-transfer-learning-vgg.ipynb`
@@ -28,10 +32,19 @@ Credit to GPT-4 for helping me implement this.
 Run the Cells from top to bottom, you can skip over cell 6 if you don't want to evaluate the model. This code takes 10 minutes to execute on my computer. Outputs the images to `Output_Images/gradcam`
 
 ## Grad-Cam++:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet purus sem. Vivamus eu luctus elit. Morbi aliquet diam ligula, vitae consectetur sapien aliquet at. Quisque ac justo nisi. Ut sed arcu sed odio cursus luctus a at elit. Aliquam feugiat, erat in accumsan hendrerit, nibh turpis lobortis eros, ac accumsan nibh ligula sit amet leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tristique dui in neque mollis gravida. Quisque ut nibh ante.
+`visualization_techniques/gradcam++/cov19_grad-cam++.ipynb`
+
+Implementation adapted from https://github.com/samson6460/tf_keras_gradcamplusplus
+
+Notebook that implements the gradcam++ technique. Creates and outputs images for all layers in the first 5 predictions for each class. Output location: `Output_Images/gradcam++`
 
 ## LIME:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet purus sem. Vivamus eu luctus elit. Morbi aliquet diam ligula, vitae consectetur sapien aliquet at. Quisque ac justo nisi. Ut sed arcu sed odio cursus luctus a at elit. Aliquam feugiat, erat in accumsan hendrerit, nibh turpis lobortis eros, ac accumsan nibh ligula sit amet leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tristique dui in neque mollis gravida. Quisque ut nibh ante.
+`visualization_techniques/lime/cov19_lime.ipynb`
+
+Implementation adapted from https://towardsdatascience.com/interpreting-image-classification-model-with-lime-1e7064a2f2e5
+
+Notebook that implements the lime technique. Creates and outputs images for the first 5 predictions in each class. Output location: `Output_Images/lime`
+
 
 ## Saliency Map:
 `visualization_techniques/saliency_map/cov19_saliency_maps.ipynb`
