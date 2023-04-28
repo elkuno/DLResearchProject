@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet purus se
 
 Credit to GPT-4 for helping me implement this.
 
-Run the Cells from top to bottom, you can skip over cell 6 if you don't want to evaluate the model. This code takes 10 minutes to execute on my computer.
+Run the Cells from top to bottom, you can skip over cell 6 if you don't want to evaluate the model. This code takes 10 minutes to execute on my computer. Outputs the images to `Output_Images/gradcam`
 
 ## Grad-Cam++:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet purus sem. Vivamus eu luctus elit. Morbi aliquet diam ligula, vitae consectetur sapien aliquet at. Quisque ac justo nisi. Ut sed arcu sed odio cursus luctus a at elit. Aliquam feugiat, erat in accumsan hendrerit, nibh turpis lobortis eros, ac accumsan nibh ligula sit amet leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut tristique dui in neque mollis gravida. Quisque ut nibh ante.
@@ -38,11 +38,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet purus se
 
 Credit to GPT-4 for helping me implement this.
 
-Run the Cells from top to bottom, you can skip over cell 6 if you don't want to evaluate the model. this code is pretty simple and executes pretty fast.
+Run the Cells from top to bottom, you can skip over cell 6 if you don't want to evaluate the model. this code is pretty simple and executes pretty fast. Outputs the images to `Output_Images/saliency_map`
 
 ## SmoothGrad:
 `visualization_techniques/smoothgrad/smoothgrad2.ipynb`
 
 Credit to: https://github.com/PAIR-code/saliency/blob/master/Examples_core.ipynb, most of the code is from them.
 
-Run the Cells from top to bottom, although be warned, this method took 6 hours to render the images in `Output_Images/smoothgrad`
+Run the Cells from top to bottom, although be warned, this method took 6 hours to render the images to the output in `Output_Images/smoothgrad`
