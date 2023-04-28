@@ -6,13 +6,13 @@ To get the code up and running you will need to install our dependencies, they a
 ## Navigation:
 Our repo is organized in a way that we can hopefully eventually apply the code to different models/datasets, here is a breakdown of the directories:
 
-### /Covid19-dataset: This is the dataset of 317 images that we used
+**/Covid19-dataset:** This is the dataset of 317 images that we used
 
-### /models: this contains the models to be used, in our case it's just a single model named: "covid_vgg1.h5"
+**/models:** this contains the models to be used, in our case it's just a single model named: "covid_vgg1.h5"
 
-### /Output_Images: this directory contains the outputs for each technique
+**/Output_Images:** this directory contains the outputs for each technique
 
-### /visualization_techniques: this directory contains sub folders correlating to each technique, inside each folder is a jupyter notebook.
+**/visualization_techniques:** this directory contains sub folders correlating to each technique, inside each folder is a jupyter notebook.
 
 
 # How to execute each jupyter notebook:
